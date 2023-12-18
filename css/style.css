@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-image: url(/css/resources/testestestes.jpg);
+  background-size: cover;
+}
+
+#container3D canvas {
+  width: 100vw !important;
+  height: 100vh !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.header {
+  background-image: linear-gradient(to bottom right, #fff, #cacaca);
+  padding: 10px 10px;
+  text-align: center;
+  z-index: 2;
+  font-style: italic;
+  font-size: 2em;
+  font-weight: 900;
+  pointer-events: none;
+}
+
+.header a {
+  margin-top: 3em;
+  text-align: left;
+  color: black;
+  height: 50px;
+  padding: 0%;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
